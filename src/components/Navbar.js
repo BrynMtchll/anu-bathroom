@@ -7,7 +7,7 @@ import NavbarItem from "components/NavbarItem"
 
 const Navbar = () => {
   return (
-    <AppBar>
+    <AppBar sx={{bgcolor: 'black'}}>
       <Toolbar>
         <NavbarItem>
           Home
@@ -18,7 +18,6 @@ const Navbar = () => {
         <NavbarItem>
           Survey
         </NavbarItem>
-        
       </Toolbar>
     </AppBar>
   )

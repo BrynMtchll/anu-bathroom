@@ -4,11 +4,10 @@ import { Box, Container } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 
 import theme from 'util/theme';
-import ToiletList from "components/ToiletList"
 import Navbar from "components/Navbar"
 
 
-const IndexPage = () => {
+const FeedbackPage = () => {
   return (
     <ThemeProvider theme={theme} sx={{fontFamily: "Roboto"}}>
       <Navbar/>
@@ -21,12 +20,12 @@ const IndexPage = () => {
       <Container
       maxWidth="md"
       >
-        <ToiletList/>
+        feedback form
       </Container>
     </ThemeProvider>
   )
 }
 
-export default IndexPage
+export default FeedbackPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Feeback Page</title>

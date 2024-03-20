@@ -2,6 +2,10 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  adapter: adapter({
+    excludeDatastoreFromEngineFunction: false,
+    imageCDN: false,
+  }),
   siteMetadata: {
     title: `Toilets of ANU`,
     siteUrl: `https://www.yourdomain.tld`

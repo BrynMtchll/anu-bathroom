@@ -17,6 +17,7 @@ const ProjectToiletItem = () => {
           height: {xs: 'auto', sm: 250},
           pb: {xs: '90%', sm: 0},
           bgcolor: 'lightBlue',
+          mr: {xs: 0, sm: 2}
         }}
       >toilet image</Box>
 
