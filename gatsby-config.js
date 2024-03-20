@@ -9,7 +9,7 @@ module.exports = {
   plugins: [{
     resolve: 'gatsby-source-contentful',
     options: {
-      "accessToken": "CFPAT-cTtf_ILv7xdvfpK28hk82frSy-Mor0ztyqT7y95f5FU",
+      "accessToken": "D5Hd6hFjwNvO6yiCtwW2jhg0N9gkR_Kmrby8nG-Cang",
       "spaceId": "mhp569usrrrl"
     }
   }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-styled-components", {
@@ -19,5 +19,6 @@ module.exports = {
       "path": "./src/images/"
     },
     __key: "images"
-  }]
+  }, 
+  'gatsby-plugin-material-ui', 'gatsby-plugin-resolve-src']
 };
