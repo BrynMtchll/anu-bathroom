@@ -10,19 +10,32 @@ import Navbar from "components/Navbar"
 
 const IndexPage = () => {
   return (
-    <ThemeProvider theme={theme} sx={{fontFamily: "Roboto"}}>
+    <ThemeProvider
+
+    theme={theme} sx={{fontFamily: "Roboto"}}
+      
+    >
       <Navbar/>
       <Box
         sx={{
+          bgcolor: 'background.default',
           width: 'auto',
           height: {xs: 100, md: 150, lg: 200}
         }}
       ></Box>
+      <Box
+        sx={{
+          bgcolor: 'background.default',
+  
+        }}
+      >
       <Container
-      maxWidth="md"
+      
+      maxWidth="lg"
       >
         <ToiletList/>
       </Container>
+      </Box>
     </ThemeProvider>
   )
 }

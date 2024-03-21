@@ -7,17 +7,17 @@ let theme = createTheme({
     mode: 'light',
 
     primary: {
-      main: '#556cd6',
+      main: '#ff73e0',
     },
     secondary: {
-      main: '#19857b',
+      main: '#e868cc',
     },
     error: {
       main: red.A400,
     },
     background: {
-      default: '#0d0d0d',
-      paper: '#0d0d0d',
+      default: '#f7f7f7',
+      paper: '#f5f5f5',
     }
   },
   typography: {

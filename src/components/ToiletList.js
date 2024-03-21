@@ -6,7 +6,7 @@ import ToiletItem from "components/ToiletItem"
 
 const ProjectToiletList = () => {
   return (
-    <Stack
+    <Box
       direction={'column'}
       spacing={{xs: 1, md: 2}}
 
@@ -19,7 +19,7 @@ const ProjectToiletList = () => {
       <ToiletItem/>
       <ToiletItem/>
       <ToiletItem/>
-    </Stack>
+    </Box>
   )
 }
 

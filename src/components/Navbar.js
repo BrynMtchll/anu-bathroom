@@ -7,7 +7,12 @@ import NavbarItem from "components/NavbarItem"
 
 const Navbar = () => {
   return (
-    <AppBar sx={{bgcolor: 'black'}}>
+    <AppBar 
+    sx={{
+      bgcolor: 'background.default', 
+      borderBottom: '1px solid black',
+      boxShadow: 'none',
+      }}>
       <Toolbar>
         <NavbarItem>
           Home
